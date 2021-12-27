@@ -10,6 +10,8 @@
 		9260CED22778F38F0087815A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260CED12778F38F0087815A /* Location.swift */; };
 		9260CED72778F7D60087815A /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260CED62778F7D60087815A /* Locations.swift */; };
 		9260CEF2277957180087815A /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260CEF1277957180087815A /* WorldView.swift */; };
+		9260CEFD277A776B0087815A /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260CEFC277A776B0087815A /* TipsView.swift */; };
+		9260CF02277A77A50087815A /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260CF01277A77A50087815A /* Tip.swift */; };
 		92A8A6C6277798200083BD6D /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8A6C5277798200083BD6D /* TrackerApp.swift */; };
 		92A8A6C8277798200083BD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8A6C7277798200083BD6D /* ContentView.swift */; };
 		92A8A6CA2777982E0083BD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A8A6C92777982E0083BD6D /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		9260CED12778F38F0087815A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		9260CED62778F7D60087815A /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		9260CEF1277957180087815A /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		9260CEFC277A776B0087815A /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		9260CF01277A77A50087815A /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		92A8A6C2277798200083BD6D /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A8A6C5277798200083BD6D /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
 		92A8A6C7277798200083BD6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				92A8A6F32777A03B0083BD6D /* tips.json */,
 				92A8A6CB2777982E0083BD6D /* Preview Content */,
 				9260CEF1277957180087815A /* WorldView.swift */,
+				9260CEFC277A776B0087815A /* TipsView.swift */,
+				9260CF01277A77A50087815A /* Tip.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -284,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9260CEFD277A776B0087815A /* TipsView.swift in Sources */,
 				92A8A6C8277798200083BD6D /* ContentView.swift in Sources */,
 				9260CED22778F38F0087815A /* Location.swift in Sources */,
+				9260CF02277A77A50087815A /* Tip.swift in Sources */,
 				9260CEF2277957180087815A /* WorldView.swift in Sources */,
 				9260CED72778F7D60087815A /* Locations.swift in Sources */,
 				92A8A6C6277798200083BD6D /* TrackerApp.swift in Sources */,
